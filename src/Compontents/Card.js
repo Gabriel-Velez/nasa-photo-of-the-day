@@ -40,7 +40,7 @@ export default function Details(props) {
       <div className='cardWrapper'>
         <div className='cardMainImage' style={backgroundStyle}></div>
         <div className='cardContent'>
-          <h1>{title}</h1>
+          <h2>{title}</h2>
           <h4>
             Date: <time datetime={date}>{date}</time>
           </h4>
