@@ -16,6 +16,8 @@ function App() {
 
   return (
     <div className='App'>
+      <h1>NASA photo of the day</h1>
+      <h4>Gabriel Velez</h4>
       <Card
         title={imageOfTheDay.title}
         date={imageOfTheDay.date}
