@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: #eee;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+
+  .cardWrapper {
+    position: relative;
+    margin: 4em 0;
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(black, 0.25);
+
+    .cardMainImage {
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .cardContent {
+      padding: 2rem 3rem;
+      text-align: left;
+      font-family: "Montserrat", sans-serif;
+
+      h1 {
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
