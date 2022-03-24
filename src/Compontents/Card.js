@@ -20,6 +20,10 @@ const Card = styled.div`
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+      transition: 0.2s;
+      &:hover {
+        transform: scale(1.025);
+      }
     }
 
     .cardContent {
