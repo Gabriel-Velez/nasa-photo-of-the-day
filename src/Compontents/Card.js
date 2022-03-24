@@ -13,7 +13,7 @@ const Card = styled.div`
     background: #fff;
     border-radius: 4px;
     overflow: hidden;
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.125);
 
     .cardMainImage {
       height: 500px;
@@ -25,12 +25,6 @@ const Card = styled.div`
     .cardContent {
       padding: 2rem 3rem;
       text-align: left;
-      font-family: "Montserrat", sans-serif;
-
-      h1 {
-        font-weight: bold;
-        text-transform: uppercase;
-      }
     }
   }
 `;

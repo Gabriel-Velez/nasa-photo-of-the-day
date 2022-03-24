@@ -1,4 +1,10 @@
 body {
   margin: 0;
   background: #eee;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
 }
