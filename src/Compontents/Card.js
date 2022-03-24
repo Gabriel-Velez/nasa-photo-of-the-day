@@ -30,7 +30,7 @@ const Card = styled.div`
 `;
 
 export default function Details(props) {
-  const { title, date, explanation, url } = props;
+  const { title, date, explanation, url, hdurl } = props;
   const backgroundStyle = {
     backgroundImage: `url(${url})`,
   };
@@ -38,7 +38,9 @@ export default function Details(props) {
   return (
     <Card className='card'>
       <div className='cardWrapper'>
-        <div className='cardMainImage' style={backgroundStyle}></div>
+        <a href={hdurl} target='_blank'>
+          <div className='cardMainImage' style={backgroundStyle}></div>
+        </a>
         <div className='cardContent'>
           <h2>{title}</h2>
           <h4>

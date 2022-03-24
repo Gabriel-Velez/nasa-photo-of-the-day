@@ -22,6 +22,7 @@ function App() {
         date={imageOfTheDay.date}
         explanation={imageOfTheDay.explanation}
         url={imageOfTheDay.url}
+        hdurl={imageOfTheDay.hdurl}
       />
     </div>
   );
