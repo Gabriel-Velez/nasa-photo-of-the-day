@@ -6,19 +6,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.mainImage {
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.container {
+.card {
   display: flex;
   justify-content: center;
 }
 
-.wrapper {
+.cardWrapper {
   position: relative;
   margin: 4em 0;
   width: 100%;
@@ -29,7 +22,14 @@ body {
   box-shadow: 0 0 10px rgba(black, 0.25);
 }
 
-.content {
+.cardMainImage {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cardContent {
   padding: 0 1.6rem;
   text-align: left;
 }

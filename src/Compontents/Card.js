@@ -9,10 +9,10 @@ export default function Details(props) {
   };
 
   return (
-    <div className='container'>
-      <div className='wrapper'>
-        <div className='mainImage' style={backgroundStyle}></div>
-        <div className='content'>
+    <div className='card'>
+      <div className='cardWrapper'>
+        <div className='cardMainImage' style={backgroundStyle}></div>
+        <div className='cardContent'>
           <h1>{title}</h1>
           <h4>
             Date: <time datetime={date}>{date}</time>
