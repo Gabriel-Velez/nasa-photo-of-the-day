@@ -7,7 +7,6 @@ const Card = styled.div`
 
   .cardWrapper {
     position: relative;
-    margin: 4em 0;
     width: 100%;
     max-width: 500px;
     background: #fff;
