@@ -6,12 +6,10 @@ const Card = styled.div`
   justify-content: center;
 
   .cardWrapper {
-    position: relative;
     width: 100%;
     max-width: 500px;
     background: #fff;
     border-radius: 4px;
-    overflow: hidden;
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.125);
 
     .cardMainImage {
@@ -22,6 +20,7 @@ const Card = styled.div`
       transition: 0.2s;
       &:hover {
         transform: scale(1.025);
+        box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.125);
       }
     }
 
